@@ -1,0 +1,59 @@
+schema = "fifth-ledger.project.v1"
+status = "accepted"
+profile_path = ".fifth-ledger/project.toml"
+visibility = "tracked-public"
+last_verified = "2026-08-23"
+verification_scope = "Routing and tracked profile-byte placement for the initial private baseline only. This is not a product, implementation, publication, deployment, or release-state claim."
+
+routed_paths = [
+  "AGENTS.md",
+  "README.md",
+  "CONTRIBUTING.md",
+  "CHANGELOG.md",
+  ".gitignore",
+  "docs",
+  "scripts",
+  "tests",
+  "local/README.md",
+]
+
+evidence_expectations = [
+  "Run PYTHONDONTWRITEBYTECODE=1 python3 scripts/validate_project.py.",
+  "Run PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v.",
+  "Run git diff --check and inspect exact tracked, ignored, and untracked state.",
+  "Use the canonical Fifth Ledger implementation validator when its repository is available, and preserve any placement failure caused by absent staging authority.",
+  "Treat routed_paths as flat reachability only; topic ownership and precedence remain in docs/source-ownership.md or as an explicit Canon gap.",
+]
+
+surfaces = [
+  "Project orientation: README.md",
+  "Operating authority: AGENTS.md",
+  "Source ownership and decisions: docs/source-ownership.md and docs/decisions",
+  "Product direction and roadmap: docs/product-direction.md and docs/roadmap.md",
+  "Pilot and evidence policy: docs/pilots/README.md",
+  "Contribution and publication gates: CONTRIBUTING.md and docs/release-publication-gates.md",
+  "Local private continuity: ignored AGENTS.local.md and local contents",
+]
+
+protected_invariants = [
+  "Keep the project home and implementation repository separate.",
+  "Do not duplicate plugin implementation canon in this repository.",
+  "Keep routed paths as reachability only, never topic precedence.",
+  "Preserve public, private, work, evidence, and lifecycle boundaries.",
+  "Do not infer publication, installation, deployment, release, or owner authority.",
+]
+
+[authority]
+project_owner_state = "identified"
+project_owner = "Senyo (Git profile: senyo888)"
+profile_acceptance_authority_state = "identified"
+profile_acceptance_authority = "Senyo (Git profile: senyo888)"
+
+[lifecycle]
+proposal_decision = "Accepted by project owner Senyo on 2026-08-23."
+implementation = "Local project-home setup only; plugin implementation is unchanged and remains external."
+validation = "Project-home checks and exact staged profile-byte validation are required for the initial private baseline."
+commit = "Initial private project-home baseline approved on 2026-08-23; current Git history owns exact commit state."
+installation_marketplace = "No installation or marketplace registration authorised or claimed."
+publication_release = "Private GitHub continuity is approved; no public publication, deployment, marketplace release, or product release is authorised or claimed."
+closeout = "Ownership, profile acceptance, tracked placement, commit, and private continuity are resolved for the initial project-home baseline; later lifecycle gates remain separate."

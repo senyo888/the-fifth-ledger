@@ -1,0 +1,48 @@
+# Operating-system and editor noise
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local authority and machine-specific continuity
+/AGENTS.local.md
+
+# Private evidence and local working records
+/local/*
+!/local/README.md
+/work/
+/tmp/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.token
+*.secret
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Generated packages and build output
+/build/
+/dist/
+*.egg-info/
+
+# Local data stores and transient evidence
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.log
+*.tmp

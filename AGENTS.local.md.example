@@ -1,0 +1,21 @@
+# Local Fifth Ledger routing
+
+Copy this file to `AGENTS.local.md` for machine-local continuity. The real file is
+ignored and must never be staged.
+
+## Local repository route
+
+- Implementation repository: `<PATH_TO_IMPLEMENTATION_REPOSITORY>`
+- Expected relationship: separate read-only or separately authorised implementation
+  source; never a subdirectory copied into this project home.
+- Last identity observation: `<DATE_AND_OPTIONAL_PRIVATE_EVIDENCE_REFERENCE>`
+
+## Local private lanes
+
+- Exact pilot evidence: `local/pilots/`
+- Private research notes: `local/research/`
+- Setup and validation evidence: `local/reports/`
+
+Keep credentials, adopter identities, exact repository evidence, and machine-local
+paths here or in another authorised private lane. Tracked `AGENTS.md` remains the
+public operating contract.

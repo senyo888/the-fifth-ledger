@@ -60,8 +60,8 @@ is separately authorised; do not stage merely to make validation pass.
 
 Staging, commit, remote creation, push, pull request creation, publication,
 installation, marketplace registration, deployment, release, and external
-communication each require explicit authority. No remote or contribution channel is
-currently declared.
+communication each require explicit authority. A private continuity remote exists; no
+public contribution channel is currently declared.
 
 No license or security contact is currently declared. Do not infer reuse rights or a
 private reporting address.

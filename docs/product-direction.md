@@ -61,7 +61,7 @@ differentiation, or adoption claim.
   friction?
 - Which controls belong in procedural skills and which require external enforcement?
 - What public evidence can demonstrate value without exposing adopter truth?
-- Should the project home and implementation repository eventually share a remote
-  organization, remain separate, or use another arrangement?
+- What public visibility and contribution model, if any, should each separate
+  repository use?
 
 These are research and decision questions, not implied roadmap commitments.

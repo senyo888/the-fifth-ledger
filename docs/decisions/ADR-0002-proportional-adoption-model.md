@@ -39,8 +39,9 @@ ambiguous nested Git roots. Any migration remains a separate decision and action
 - Profile creation, staging, commit, remote work, and publication remain separate
   authority gates.
 
-## Validation and next gate
+## Validation and next gate at acceptance
 
 Maintain private, evidence-bound suitability records and update public strategy only
-with generalized conclusions. The next implementation candidate is the project whose
-owner approves the highest-value unblocked adoption.
+with generalized conclusions. At acceptance, the next implementation candidate was the
+project whose owner approved the highest-value unblocked adoption. Current gates are
+recorded in the roadmap.

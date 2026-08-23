@@ -53,8 +53,9 @@ workspace distinct from task history.
   implementation location.
 - Publication and release state cannot be inferred across the repository boundary.
 
-## Validation and next gate
+## Validation and next gate at acceptance
 
 Validate the project-home source map, profile reachability, privacy boundary, and absence
 of copied plugin package paths. The next decision is ownership and profile acceptance,
-not repository migration.
+not repository migration. That decision was later completed; the current next gates
+are recorded in the roadmap.

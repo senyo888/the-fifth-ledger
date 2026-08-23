@@ -62,10 +62,11 @@ repository without leaking a path or misrepresenting scope. The external impleme
 route therefore lives in ignored `AGENTS.local.md`, while this document records its
 topic ownership in portable terms.
 
-The profile is accepted by project owner Senyo (`senyo888`) but its tracked placement
-remains unverified. Its route syntax and reachability may be checked without staging.
-Tracked-public placement cannot be proved until staging is separately authorised, and
-acceptance does not imply staging.
+The profile is accepted by project owner Senyo (`senyo888`). Its route syntax,
+reachability, tracked placement, and exact profile bytes were validated for the initial
+private baseline after staging was separately authorised. That evidence is limited to
+that baseline: future profile edits must pass their own validation and cannot borrow its
+index-byte proof.
 
 ## Surface ownership
 

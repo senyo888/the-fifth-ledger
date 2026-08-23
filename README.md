@@ -1,14 +1,23 @@
 # The Fifth Ledger project home
 
-This repository is the durable control workspace for The Fifth Ledger: an
-evidence-first governance workflow for agentic project work. It holds product
-direction, source ownership, decisions, research boundaries, pilot policy, review
-expectations, and release/publication gates.
+The Fifth Ledger helps people and coding agents keep consequential project work
+truthful, reviewable, and within authority. This repository is its durable project
+home: it holds product direction, source ownership, decisions, research boundaries,
+pilot policy, review expectations, and release/publication gates.
 
 The plugin implementation lives in a separate repository. That repository remains the
 only source for plugin code, skills, package metadata, implementation architecture,
 templates, and implementation tests. This project home must route to that source, not
 copy it.
+
+## What it helps answer
+
+- Who may decide or change this?
+- Which source owns the truth?
+- What evidence applies to the exact current state?
+- Which documents, product surfaces, and records must agree?
+- What has actually been proposed, implemented, validated, published, deployed, or
+  released?
 
 ## Current maturity
 
@@ -35,6 +44,18 @@ Current Git state always overrides this dated orientation when they diverge.
 See [source ownership](docs/source-ownership.md) and
 [ADR-0001](docs/decisions/ADR-0001-project-home-boundary.md) for the controlling
 boundary.
+
+## Where to look
+
+- [Documentation index](docs/README.md) — choose the right source by question.
+- [Source ownership](docs/source-ownership.md) — repository split and precedence.
+- [Product direction](docs/product-direction.md) — working purpose, audience, and
+  non-goals.
+- [Roadmap](docs/roadmap.md) — current and future gates, never action authority.
+- [Decision records](docs/decisions/README.md) — accepted durable choices.
+- [Pilot policy](docs/pilots/README.md) — evidence ownership and privacy.
+- [Release and publication gates](docs/release-publication-gates.md) — proof required
+  before external claims or actions.
 
 ## Working model
 

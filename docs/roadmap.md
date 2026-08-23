@@ -47,7 +47,8 @@ Result:
 
 ## 3. Bounded pilot design — next
 
-Objective: select one useful project class and test the smallest relevant workflow.
+Objective: design the smallest useful pilot around the accepted Mail Handler adoption.
+Selection does not imply that evidence collection has started.
 
 Required before evidence collection:
 
@@ -74,13 +75,14 @@ Gates:
 
 ## 5. Distribution decision
 
-Objective: decide whether and how to create a remote, accept contributions, publish,
-install, or pursue marketplace distribution.
+Objective: decide whether either private repository should gain public visibility or a
+contribution channel, and whether to publish, install, or pursue marketplace
+distribution.
 
 This stage requires fresh platform research, a license decision, security/contact
 decision, current package validation, sanitized pilot evidence, rollback planning, and
-explicit authority for each external action. A local prototype or passing validator is
-not publication readiness.
+explicit authority for each external action. A private prototype or passing validator
+is not publication readiness.
 
 ## Deferred, not scheduled
 

@@ -5,13 +5,11 @@ changes belong in the separate implementation repository.
 
 ## Unreleased
 
-- Established the initial private Git baseline for the project home.
-- Validated the accepted tracked-public profile against the exact staged profile bytes.
-- Kept private remote continuity separate from public publication, deployment,
-  installation, marketplace registration, and release.
-- Recorded Senyo (`senyo888`) as project owner and profile acceptance authority.
-- Accepted the project profile while preserving unverified tracked placement as a
-  separate staging gate.
+- Established the private project-home baseline and continuity remote without implying
+  public publication, deployment, installation, marketplace registration, or release.
+- Recorded Senyo (`senyo888`) as project owner and profile acceptance authority, then
+  validated the accepted tracked-public profile against the exact staged baseline
+  bytes.
 - Added the proportional cross-project adoption strategy and its governing ADR.
 - Completed a private suitability review of the two durable projects created after the
   original Fifth Ledger baseline.
@@ -19,12 +17,13 @@ changes belong in the separate implementation repository.
   research, pilots, reviews, and private continuity.
 - Recorded the no-duplication boundary between the project home and plugin
   implementation repository.
-- Added a proposed Fifth Ledger project profile with explicit unresolved ownership and
-  placement state.
 - Added public/private/work/cache boundaries and a local override example.
 - Added source ownership, product direction, roadmap, ADR, pilot, contribution,
   publication-gate, validation, and test documentation.
+- Corrected superseded placement and remote wording, and made the README and
+  documentation index easier to navigate without weakening lifecycle gates.
 
-Runtime impact: none. No plugin implementation or external system changed.
+Runtime impact: none. No plugin runtime, UI, or external system changed through this
+project-home change.
 
 Migration or restart: none.

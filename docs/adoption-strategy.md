@@ -73,3 +73,15 @@ reason about.
 Moving or splitting an existing repository requires a separately approved migration
 with path, history, privacy, rollback, and tooling checks. An adoption review may
 recommend that structure but must not perform the migration.
+
+## Portability evidence
+
+A read-only [split-repository pilot](pilots/split-repository-portability-2026-08-24.md)
+supported the existing sibling control/implementation rule. One full ignored-local
+profile at the private control layer can route exact cross-root continuity without
+requiring a second full profile in a clear single-purpose implementation repository.
+
+The pilot also exposed a lifecycle closeout requirement: when a later authorised Git
+or provider action makes ignored routing stale, reconcile that target-owned record
+under explicit target authority or mark it stale and defer to live identity evidence.
+The project home records only generalized learning; it does not repair target Canon.

@@ -28,9 +28,9 @@ The project home has an initial private Git baseline. At this point:
 - Senyo (`senyo888`) is the identified project owner and has accepted the project
   profile;
 - the accepted profile's tracked placement is validated against the initial baseline;
-- ADR-0003 records the accepted execution-envelope model; the first read-only pilot
-  has reached synthesis, with exact evidence retained privately and no target or plugin
-  change accepted;
+- ADR-0003 records the accepted execution-envelope model; two read-only pilots have
+  examined bounded authority and split-repository portability, with exact evidence
+  kept private and no target or plugin change accepted;
 - no publication, installation, marketplace registration, deployment, or release is
   claimed here;
 - product positioning is a working direction, not a verified market claim.
@@ -82,15 +82,15 @@ git diff --check
 
 ## Next gates
 
-1. Review the first pilot at Checkpoint 2 and choose independently among early close,
-   documentation-only follow-up, another pilot, a bounded private plugin proposal, or
-   optional distribution research.
-2. Keep the exact pilot packet private; only generalized, evidence-bounded learning may
+1. At the next product checkpoint, choose independently among documentation-only
+   closeout, a target-owned continuity correction proposal, a bounded private plugin
+   proposal, another pilot, or optional distribution research.
+2. Keep exact pilot packets private; only generalized, evidence-bounded learning may
    enter tracked documentation.
-3. If another pilot is chosen, define its evidence owner, privacy lane, success
+3. Reconcile any accepted product or workflow change into the implementation
+   repository only through separately authorised implementation work.
+4. If another pilot is chosen, define its evidence owner, privacy lane, success
    criteria, retention, and stop rule before collecting evidence.
-4. Reconcile any accepted product or workflow change into the implementation repository only
-   through separately authorised implementation work.
 5. Consider publication only after the gates in
    [release and publication](docs/release-publication-gates.md) are evidenced.
 

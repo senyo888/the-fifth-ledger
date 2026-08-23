@@ -56,6 +56,11 @@ private evidence are usually sufficient.
 Public information is not automatically owned by this project. Publication requires
 separate authority and current sanitization review.
 
+## Public-ready summaries
+
+- [Split-repository portability pilot](split-repository-portability-2026-08-24.md) —
+  generalized structural learning only; exact target evidence remains private.
+
 ## Lifecycle
 
 Keep pilot proposed, authorised, running, stopped, validated, reviewed, accepted,

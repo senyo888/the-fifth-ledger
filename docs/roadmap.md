@@ -64,7 +64,27 @@ Result:
 
 This result does not accept a plugin change or distribution direction.
 
-## 4. Product decision and implementation reconciliation — next
+## 4. Split-repository portability pilot — completed 2026-08-24
+
+Objective: test the proportional adoption model against a private control workspace
+and independently versioned public-capable implementation repository.
+
+Result:
+
+- sibling Git roots preserved clear control and implementation ownership;
+- one full ignored-local control profile recorded exact private continuity without
+  requiring a second full implementation profile;
+- source-ownership documents kept the public-capable and private-evidence lanes
+  distinct;
+- ignored lifecycle routing was found stale after later separately approved Git gates;
+- live Git remained the current observed identity source;
+- no target or plugin change, validator, provider, runtime, UI, publication,
+  deployment, or release action was performed.
+
+The generalized result is recorded in the
+[public-safe pilot summary](pilots/split-repository-portability-2026-08-24.md).
+
+## 5. Product decision and implementation reconciliation — next
 
 Objective: convert evidenced pilot findings into explicit decisions and, when
 authorised, small implementation-repository changes.
@@ -79,7 +99,7 @@ Gates:
 - project-home direction and public claims reconciled without copying implementation
   canon.
 
-## 5. Distribution decision
+## 6. Distribution decision
 
 Objective: decide whether either private repository should gain public visibility or a
 contribution channel, and whether to publish, install, or pursue marketplace

@@ -29,6 +29,7 @@ REQUIRED_FILES = (
     "docs/decisions/README.md",
     "docs/execution-charter-template.md",
     "docs/pilots/README.md",
+    "docs/pilots/split-repository-portability-2026-08-24.md",
     "docs/product-direction.md",
     "docs/release-publication-gates.md",
     "docs/roadmap.md",

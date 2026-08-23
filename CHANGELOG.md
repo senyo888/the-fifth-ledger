@@ -5,6 +5,8 @@ changes belong in the separate implementation repository.
 
 ## Unreleased
 
+- Recorded public-safe split-repository portability learning while keeping exact target
+  identity and lifecycle evidence in the ignored private lane.
 - Accepted ADR-0003 and added an execution-charter template so one explicit,
   expiring decision can cover a bounded private phase without weakening stop,
   privacy, source-ownership, or lifecycle gates.

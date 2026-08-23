@@ -5,6 +5,9 @@ changes belong in the separate implementation repository.
 
 ## Unreleased
 
+- Accepted ADR-0003 and added an execution-charter template so one explicit,
+  expiring decision can cover a bounded private phase without weakening stop,
+  privacy, source-ownership, or lifecycle gates.
 - Established the private project-home baseline and continuity remote without implying
   public publication, deployment, installation, marketplace registration, or release.
 - Recorded Senyo (`senyo888`) as project owner and profile acceptance authority, then

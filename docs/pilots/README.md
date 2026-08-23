@@ -17,6 +17,11 @@ Record:
 If identity, authority, privacy, or evidence ownership is unresolved, do not collect
 real adopter evidence.
 
+When one pilot contains several approved actions, record them with the
+[execution charter template](../execution-charter-template.md). A charter may reduce
+mechanical interruptions, but it does not relax the pilot's evidence, privacy, or stop
+rules.
+
 ## Evidence lanes
 
 - Exact adopter evidence belongs in `local/pilots/` or another explicitly authorised

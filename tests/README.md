@@ -1,7 +1,8 @@
 # Project-home tests
 
 The tests exercise the local project validator, profile reachability, ignore boundary,
-and no-shadow implementation boundary using only Python's standard library.
+no-shadow implementation boundary, and separate execution-charter lifecycle permissions
+using only Python's standard library.
 
 Run without bytecode output:
 

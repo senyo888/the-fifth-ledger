@@ -2,6 +2,11 @@
 
 This project home records gates; it does not grant the authority they require.
 
+An explicitly approved [execution charter](execution-charter-template.md) may enumerate
+several private or external actions in one ordered phase. Each target, identity,
+permission, intervening stop condition, and rollback must still be stated. The charter
+cannot borrow release authority from an earlier pilot or product decision.
+
 ## Separate lifecycle facts
 
 Keep these facts distinct:

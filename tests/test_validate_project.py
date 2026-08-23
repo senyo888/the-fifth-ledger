@@ -59,6 +59,27 @@ class ProjectHomeValidationTests(unittest.TestCase):
             with self.subTest(relative=relative):
                 self.assertFalse((ROOT / relative).exists())
 
+    def test_execution_charter_keeps_lifecycle_permissions_separate(self) -> None:
+        charter = (ROOT / "docs" / "execution-charter-template.md").read_text(
+            encoding="utf-8"
+        )
+        for action in (
+            "Create or change a remote",
+            "Mutate a provider or account",
+            "Mutate a runtime",
+            "Change a UI",
+            "Change repository or artifact visibility",
+            "Communicate externally",
+            "Publish",
+            "Install",
+            "Deploy",
+            "Register or submit to a marketplace",
+            "Release or promote",
+            "Rewrite history or force-push",
+        ):
+            with self.subTest(action=action):
+                self.assertIn(f"| {action} |", charter)
+
 
 if __name__ == "__main__":
     unittest.main()

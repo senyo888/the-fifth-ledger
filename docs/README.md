@@ -10,6 +10,7 @@ source precedence.
 | How much governance should another project adopt? | [Adoption strategy](adoption-strategy.md) |
 | What is planned or complete? | [Roadmap](roadmap.md) |
 | Which durable decisions have been accepted? | [Decision records](decisions/README.md) |
+| How can one approval cover a bounded phase? | [Execution charter template](execution-charter-template.md) |
 | Where may pilot evidence live? | [Pilot and evidence policy](pilots/README.md) |
 | What must be true before publication or release? | [Release and publication gates](release-publication-gates.md) |
 

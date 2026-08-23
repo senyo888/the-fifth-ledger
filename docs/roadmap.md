@@ -45,28 +45,34 @@ Result:
 - exact project identities and findings remain in the ignored private assessment;
 - ADR-0002 owns the reusable adoption decision.
 
-## 3. Bounded pilot design — next
+## 3. Bounded authority-envelope pilot — completed 2026-08-23
 
-Objective: design the smallest useful pilot around the accepted Mail Handler adoption.
-Selection does not imply that evidence collection has started.
+Objective: test whether one explicit, expiring envelope can carry a real governance
+task through reviewed private closeout without repeated mechanical approval or weakened
+privacy and lifecycle boundaries.
 
-Required before evidence collection:
+Result:
 
-- adopter and evidence owner;
-- exact permitted action level and stop rules;
-- private evidence location and retention decision;
-- success, friction, and failure measures;
-- sanitization and public-summary decision.
+- the exact target packet remained immutable and read-only;
+- one material identity-drift stop correctly returned to the owner for clarification;
+- no repeated approval was needed for already enumerated project-home actions;
+- exact evidence and reviewer records remained in the ignored private lane;
+- independent review supported the execution-envelope documentation and found no
+  reason for a target or plugin implementation change;
+- no publication, installation, deployment, marketplace, runtime, UI, mailbox, or
+  release action was inferred.
 
-No real adopter evidence should be collected merely to fill a template.
+This result does not accept a plugin change or distribution direction.
 
-## 4. Product and implementation reconciliation
+## 4. Product decision and implementation reconciliation — next
 
 Objective: convert evidenced pilot findings into explicit decisions and, when
 authorised, small implementation-repository changes.
 
 Gates:
 
+- choose early close, documentation-only follow-up, another pilot, a bounded private
+  implementation proposal, or optional distribution research independently;
 - accepted ADR or bounded implementation request;
 - exact implementation identity;
 - implementation-repository validation;

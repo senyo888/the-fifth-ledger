@@ -37,6 +37,7 @@ into this repository or treat a routed profile as a second implementation canon.
 | Decisions | `docs/decisions/` | Newer accepted ADRs supersede older conflicting decisions. |
 | Pilot and evidence handling | `docs/pilots/README.md` | Exact adopter evidence stays in its authorised private lane. |
 | Contribution and review | `CONTRIBUTING.md` | Applies only within separately granted action authority. |
+| Execution-envelope format | `docs/execution-charter-template.md` | Records an explicit approval; it never creates one. |
 | Publication and release gates | `docs/release-publication-gates.md` | External state requires current external evidence and explicit authority. |
 | Structural routing | `.fifth-ledger/project.toml` | Reachability only; it does not encode topic ownership or precedence. |
 
@@ -62,12 +63,15 @@ or explicit authority decision. Do not silently choose the most convenient state
 1. Prove the target, Git identity, applicable source map, and action authority.
 2. Classify the requested outcome and proportional governance level.
 3. Work in the smallest correct source-owning repository.
-4. Keep proposals, decisions, implementation, validation, publication, and release
+4. For a multi-action phase, use an explicitly approved, expiring
+   [execution charter](docs/execution-charter-template.md); the template itself grants
+   nothing.
+5. Keep proposals, decisions, implementation, validation, publication, and release
    distinct.
-5. Update every affected project-home surface in one coherent change.
-6. Run `PYTHONDONTWRITEBYTECODE=1 python3 scripts/validate_project.py` and the relevant
+6. Update every affected project-home surface in one coherent change.
+7. Run `PYTHONDONTWRITEBYTECODE=1 python3 scripts/validate_project.py` and the relevant
    tests. Report checks that were unavailable or intentionally not run.
-7. Re-prove Git status and list actions not performed.
+8. Re-prove Git status and list actions not performed.
 
 ## Validation expectations
 

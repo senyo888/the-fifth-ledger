@@ -28,6 +28,9 @@ The project home has an initial private Git baseline. At this point:
 - Senyo (`senyo888`) is the identified project owner and has accepted the project
   profile;
 - the accepted profile's tracked placement is validated against the initial baseline;
+- ADR-0003 records the accepted execution-envelope model; the first read-only pilot
+  has reached synthesis, with exact evidence retained privately and no target or plugin
+  change accepted;
 - no publication, installation, marketplace registration, deployment, or release is
   claimed here;
 - product positioning is a working direction, not a verified market claim.
@@ -53,6 +56,8 @@ boundary.
   non-goals.
 - [Roadmap](docs/roadmap.md) — current and future gates, never action authority.
 - [Decision records](docs/decisions/README.md) — accepted durable choices.
+- [Execution charter template](docs/execution-charter-template.md) — make one bounded
+  approval operational without turning a document into authority.
 - [Pilot policy](docs/pilots/README.md) — evidence ownership and privacy.
 - [Release and publication gates](docs/release-publication-gates.md) — proof required
   before external claims or actions.
@@ -77,12 +82,14 @@ git diff --check
 
 ## Next gates
 
-1. Use the accepted Mail Handler adoption as the first bounded pilot, with exact
-   evidence retained in its private lane.
-2. Record only generalized, public-safe learning in this project home after review.
-3. Select the next bounded pilot objective and define its evidence owner, privacy lane,
-   success criteria, and stop rule before collecting real adopter evidence.
-4. Reconcile any product or workflow changes into the implementation repository only
+1. Review the first pilot at Checkpoint 2 and choose independently among early close,
+   documentation-only follow-up, another pilot, a bounded private plugin proposal, or
+   optional distribution research.
+2. Keep the exact pilot packet private; only generalized, evidence-bounded learning may
+   enter tracked documentation.
+3. If another pilot is chosen, define its evidence owner, privacy lane, success
+   criteria, retention, and stop rule before collecting evidence.
+4. Reconcile any accepted product or workflow change into the implementation repository only
    through separately authorised implementation work.
 5. Consider publication only after the gates in
    [release and publication](docs/release-publication-gates.md) are evidenced.

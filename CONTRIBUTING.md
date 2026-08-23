@@ -42,6 +42,19 @@ Use one focused review for low-risk documentation. Require separate-context revi
 when the decision's impact or uncertainty justifies it; never label shared-context
 role-play as independent.
 
+## Execution charters
+
+For a bounded phase with several pre-agreed actions, use the
+[execution charter template](docs/execution-charter-template.md). The concrete charter
+must list exact targets and permissions for editing, validation, staging, commit, push,
+private review, merge, or external action. Its explicit owner approval is the authority;
+the template and [ADR-0003](docs/decisions/ADR-0003-decision-backed-authority-envelopes.md)
+are not.
+
+Stop when the observed identity changes, the work needs an unlisted action, a privacy
+boundary is threatened, or a required check fails. Do not request a fresh decision for
+an already listed mechanical step while the charter remains valid.
+
 ## Validation
 
 ```bash

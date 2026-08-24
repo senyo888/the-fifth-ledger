@@ -2,8 +2,8 @@ schema = "fifth-ledger.project.v1"
 status = "accepted"
 profile_path = ".fifth-ledger/project.toml"
 visibility = "tracked-public"
-last_verified = "2026-08-23"
-verification_scope = "Routing and tracked profile-byte placement for the initial private baseline only. This is not a product, implementation, publication, deployment, or release-state claim."
+last_verified = "2026-08-24"
+verification_scope = "Profile syntax, routing, tracked placement, and public lifecycle annotations reconciled through the 2026-08-24 post-publication observation. Universal client propagation, deployment, later versions, and further release actions remain separate evidence and authority gates."
 
 routed_paths = [
   "AGENTS.md",
@@ -37,10 +37,10 @@ surfaces = [
 
 protected_invariants = [
   "Keep the project home and implementation repository separate.",
-  "Do not duplicate plugin implementation canon in this repository.",
-  "Keep routed paths as reachability only, never topic precedence.",
+  "Keep plugin implementation canon in its external source-owning repository.",
+  "Keep routed paths as reachability while topic precedence stays in project-owned Canon.",
   "Preserve public, private, work, evidence, and lifecycle boundaries.",
-  "Do not infer publication, installation, deployment, release, or owner authority.",
+  "Require separate evidence and owner authority for publication, installation, deployment, and release.",
 ]
 
 [authority]
@@ -54,6 +54,6 @@ proposal_decision = "Accepted by project owner Senyo on 2026-08-23."
 implementation = "Local project-home setup only; plugin implementation is unchanged and remains external."
 validation = "Project-home checks and exact staged profile-byte validation are required for the initial private baseline."
 commit = "Initial private project-home baseline approved on 2026-08-23; current Git history owns exact commit state."
-installation_marketplace = "No installation or marketplace registration authorised or claimed."
-publication_release = "Private GitHub continuity is approved; no public publication, deployment, marketplace release, or product release is authorised or claimed."
-closeout = "Ownership, profile acceptance, tracked placement, commit, and private continuity are resolved for the initial project-home baseline; later lifecycle gates remain separate."
+installation_marketplace = "The 5th Ledger 0.1.0 is published in OpenAI's universal Plugins Directory; authenticated ChatGPT installed state and one fresh Codex task registration were observed on 2026-08-24, while cross-context Codex propagation remains incomplete."
+publication_release = "The public project home and The 5th Ledger 0.1.0 directory publication are observed; deployment, later-version candidates, superseding publication, and further release actions retain their own evidence and authority gates."
+closeout = "Initial project-home ownership and profile acceptance remain closed; 0.1.0 publication is closed, while bounded post-publication cross-client observation remains open."

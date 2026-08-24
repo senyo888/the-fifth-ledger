@@ -2,7 +2,7 @@
 
 ## Decision state
 
-The product and distribution decision for The 5th Ledger `0.1.0` is accepted in [ADR-0004](../decisions/ADR-0004-plugin-distribution-and-publication.md). Version `0.1.0` was published on 2026-08-24. This record owns the portable public promise and lifecycle boundary. It does not identify private source, account, installation, or Platform records.
+The product and distribution decision for The 5th Ledger `0.1.0` is accepted in [ADR-0004](../decisions/ADR-0004-plugin-distribution-and-publication.md). Version `0.1.0` was published on 2026-08-24. This record owns the portable public promise and lifecycle boundary. Private source, account, installation, and Platform records remain in their authorised evidence lane.
 
 ## Public listing direction
 
@@ -11,12 +11,12 @@ The product and distribution decision for The 5th Ledger `0.1.0` is accepted in 
 - **Short description:** Govern consequential work.
 - **Category:** Developer Tools, subject to the current Platform vocabulary.
 - **Publisher:** Senyo Seckley, using the Platform-verified individual identity confirmed for this publication.
-- **Availability:** Every region the current OpenAI Platform permits for this plugin and verified publisher; do not impose an additional geographic restriction.
-- **Language and support:** English initially, best effort, no localization claim or service-level agreement.
+- **Availability:** Every region the current OpenAI Platform permits for this plugin and verified publisher, using the full regional set offered by the Platform.
+- **Language and support:** English initially and best effort; localization and service-level commitments remain future decisions.
 
 Long description:
 
-> Keep consequential project work truthful, reviewable, and within authority. The 5th Ledger provides local-first workflows to establish action boundaries, trace claims to project-owned sources, review truth drift, structure independent challenge, draft durable decisions, and assess release evidence. It is procedural guidance, not access control, compliance certification, or an autonomous publication, deployment, or release system.
+> Keep consequential project work truthful, reviewable, and within authority. The 5th Ledger provides local-first workflows to establish action boundaries, trace claims to project-owned sources, review truth drift, structure independent challenge, draft durable decisions, and assess release evidence. It provides procedural guidance while access control, compliance certification, publication, deployment, and release authority stay with the project and its external systems.
 
 ## Public surfaces
 
@@ -27,12 +27,12 @@ Long description:
 - Terms: [TERMS.md](../../TERMS.md)
 - Licence: [Apache-2.0](../../LICENSE)
 
-The implementation source owns the exact manifest, skills, brand assets, compatibility statement, reviewer tests, deterministic bundle, and release notes. Those artifacts are reconciled against this public promise without being copied into the project home.
+The implementation source owns the exact manifest, skills, brand assets, compatibility statement, reviewer tests, deterministic bundle, and release notes. Those artifacts remain solely in that source while this project home carries the reconciled public promise.
 
 ## Lifecycle truth
 
-The publication direction by itself is not a submitted or published plugin. The
-published status below rests only on the separately observed lifecycle evidence.
+The publication direction records intent. The separately observed lifecycle evidence
+below establishes submitted and published status.
 
 The `0.1.0` lifecycle completed as separate, identity-bound facts:
 
@@ -45,16 +45,34 @@ The `0.1.0` lifecycle completed as separate, identity-bound facts:
 7. authenticated ChatGPT directory installation and bounded smoke tests passed.
 
 At the publication observation boundary, Codex had retrieved the public `0.1.0`
-package, but a fresh Codex session did not activate it and the public plugin lookup did
-not yet resolve it. That limitation is recorded rather than replaced with a local or
-private installation claim. Publication, cross-client propagation, installation, and
-successful behavior remain distinct facts.
+package while fresh-session activation and public lookup remained open evidence. That
+boundary preserves publication, cross-client propagation, installation, and successful
+behavior as distinct facts.
+
+## Post-publication observation
+
+A later observation on 2026-08-24 confirmed the following current scope:
+
+- authenticated ChatGPT public-directory search returned The 5th Ledger under
+  **Public**, with installed state, version `0.1.0`, the expected developer, icon,
+  prompts, eight skills, website, privacy, and terms;
+- the configured support URL returned HTTP 200, while visible support-link presentation
+  remained open evidence on the observed listing;
+- one fresh Codex desktop task registered all eight public `0.1.0` skills, and the named
+  governance, release-evidence, and coherence workflows produced safe bounded results;
+- a separate fresh ephemeral Codex context lacked one named skill, keeping
+  cross-context propagation open for the seven-day observation window;
+- fresh ChatGPT message behavior, anonymous listing detail, and current Platform
+  containment controls remain open evidence for later authorised observation.
+
+These findings extend the observation record while the completed `0.1.0` publication
+sequence stays closed. Plugin source, provider state, later-version candidates, and
+further lifecycle actions retain their own evidence and owner decisions.
 
 ## Containment
 
-No withdrawal or unpublish control was confirmed in the current Platform before
-publication. The available controls did not establish a safe reversible lifecycle
-action, and none was used. Senyo explicitly accepted a separately reviewed superseding
-version as the containment path for `0.1.0` if correction is required. Any superseding
-version remains a new candidate, review, approval, and publication decision; this
-record grants no authority for it.
+Current Platform evidence establishes a separately reviewed superseding version as the
+observed containment path. Withdrawal and unpublish capability remain open evidence,
+and every observed control retained its pre-publication state. Senyo explicitly
+accepted supersession for `0.1.0` when correction is required. Each superseding version
+receives a new candidate identity, review, approval, and publication decision.

@@ -278,7 +278,7 @@ def validate_publication_contract(errors: list[str]) -> int:
             "Publish",
         ),
         "docs/publication/plugin-directory-0.1.0.md": (
-            "not a submitted or published plugin",
+            "separately observed lifecycle evidence",
             "Platform draft",
             "OpenAI approval",
         ),

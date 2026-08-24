@@ -93,7 +93,7 @@ class ProjectHomeValidationTests(unittest.TestCase):
         ).read_text(encoding="utf-8")
 
         self.assertIn("publisher does not receive", privacy)
-        self.assertIn("not a submitted or published plugin", publication)
+        self.assertIn("separately observed lifecycle evidence", publication)
         self.assertLess(publication.index("Platform draft"), publication.index("OpenAI approval"))
         self.assertIn("Status: accepted", decision)
         self.assertIn("Submit for Review", decision)

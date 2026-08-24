@@ -1,7 +1,7 @@
 # Roadmap
 
-The roadmap records planned gates, not authority or completion. Update lifecycle state
-only from current evidence.
+The roadmap records planned gates. Explicit owner decisions provide authority, and
+current evidence establishes completion.
 
 ## 0. Project-home foundation — completed 2026-08-23
 
@@ -14,11 +14,11 @@ Exit evidence:
 - local validation and tests pass;
 - profile syntax and routes are coherent;
 - expected profile placement limitation is documented;
-- no plugin implementation or inspiration repository changed;
+- plugin implementation and inspiration repositories retained their existing bytes;
 - Git state and unauthorised actions are reported exactly.
 
-The accepted profile is bound to the initial private Git baseline. Private GitHub
-continuity does not establish public publication or product release.
+The accepted profile is bound to the initial private Git baseline. Public publication
+and product release use their own evidence and authority gates.
 
 ## 1. Ownership and profile decision — completed 2026-08-23
 
@@ -27,7 +27,7 @@ profile-byte placement were validated for the initial private baseline.
 
 Exit evidence:
 
-- Authority is recorded without placeholder identity.
+- Authority names the identified owner directly.
 - Profile status matches the explicit decision.
 - Placement was proved only after explicit baseline staging authority.
 
@@ -48,21 +48,21 @@ Result:
 ## 3. Bounded authority-envelope pilot — completed 2026-08-23
 
 Objective: test whether one explicit, expiring envelope can carry a real governance
-task through reviewed private closeout without repeated mechanical approval or weakened
+task through reviewed private closeout with efficient mechanical approval and strong
 privacy and lifecycle boundaries.
 
 Result:
 
 - the exact target packet remained immutable and read-only;
 - one material identity-drift stop correctly returned to the owner for clarification;
-- no repeated approval was needed for already enumerated project-home actions;
+- the enumerated project-home actions completed under one bounded approval;
 - exact evidence and reviewer records remained in the ignored private lane;
-- independent review supported the execution-envelope documentation and found no
-  reason for a target or plugin implementation change;
-- no publication, installation, deployment, marketplace, runtime, UI, mailbox, or
-  release action was inferred.
+- independent review supported the execution-envelope documentation and recommended
+  retaining the target and plugin implementation unchanged;
+- publication, installation, deployment, marketplace, runtime, UI, mailbox, and release
+  actions remained outside the pilot scope.
 
-This result does not accept a plugin change or distribution direction.
+Plugin change and distribution direction remained available for later owner decisions.
 
 ## 4. Split-repository portability pilot — completed 2026-08-24
 
@@ -72,14 +72,14 @@ and independently versioned public-capable implementation repository.
 Result:
 
 - sibling Git roots preserved clear control and implementation ownership;
-- one full ignored-local control profile recorded exact private continuity without
-  requiring a second full implementation profile;
+- one full ignored-local control profile recorded exact private continuity while the
+  clear implementation source retained its focused profile;
 - source-ownership documents kept the public-capable and private-evidence lanes
   distinct;
 - ignored lifecycle routing was found stale after later separately approved Git gates;
 - live Git remained the current observed identity source;
-- no target or plugin change, validator, provider, runtime, UI, publication,
-  deployment, or release action was performed.
+- the read-only scope preserved target and plugin bytes and left validator, provider,
+  runtime, UI, publication, deployment, and release state unchanged.
 
 The generalized result is recorded in the
 [public-safe pilot summary](pilots/split-repository-portability-2026-08-24.md).
@@ -87,7 +87,7 @@ The generalized result is recorded in the
 ## 5. Product and distribution decision — completed 2026-08-24
 
 Objective: convert the evidenced product direction into one bounded distribution
-decision without collapsing candidate, draft, review, approval, and publication.
+decision while keeping candidate, draft, review, approval, and publication distinct.
 
 Result:
 
@@ -124,13 +124,13 @@ complete validated Skills-only OpenAI Platform draft.
 Result:
 
 - the selected publisher was verified as Senyo Seckley;
-- owner access satisfied the observed Apps Management requirement without a role
-  change;
+- the existing owner role satisfied the observed Apps Management requirement;
 - exactly one Skills-only draft was completed with the approved candidate, listing,
   prompts, tests, availability, release notes, policy URLs, and attestations;
 - automated Platform checks passed;
 - the phase stopped before `Submit for Review`;
-- no billing, role, legal, verification, or implementation-visibility change was made.
+- billing, role, legal, verification, and implementation visibility retained their
+  reviewed pre-phase state.
 
 ## 8. OpenAI review — completed 2026-08-24
 
@@ -139,30 +139,55 @@ Result:
 - Senyo separately authorized submission of the exact reconciled draft;
 - `Confirm and submit` was selected once;
 - OpenAI recorded version `0.1.0` as approved;
-- approval remained external evidence and did not authorize publication.
+- approval remained external evidence, with final publication authority reserved for
+  Senyo's later decision.
 
-## 9. Directory publication — completed 2026-08-24; Codex observation open
+## 9. Directory publication — completed 2026-08-24; cross-context observation open
 
-Objective: publish the exact OpenAI-approved candidate only after Senyo authorizes the
-final `Publish` action and containment controls are confirmed.
+Objective: publish the exact OpenAI-approved candidate after Senyo authorizes the final
+`Publish` action and accepts the observed containment path.
 
 Result:
 
 - Senyo separately authorized publication of the exact OpenAI-approved `0.1.0`
   candidate;
 - the Platform showed one approved entry, public policy and support URLs were live,
-  and no new terms, costs, identity, role, billing, verification, regional commitment,
-  or candidate change appeared;
+  and terms, costs, identity, role, billing, verification, regional commitment, and
+  candidate identity retained their reviewed state;
 - `Publish` was selected exactly once and the Platform recorded `0.1.0` as published;
 - the public directory listing was verified and authenticated ChatGPT installation and
   bounded smoke tests passed;
-- the Codex client retrieved the public package, but fresh-session activation and
-  public lookup were not confirmed at this observation boundary;
-- no withdrawal or unpublish control was confirmed, so the owner-approved containment
-  route is a separately reviewed superseding version;
+- the Codex client retrieved the public package while fresh-session activation and
+  public lookup remained open at the publication observation boundary;
+- a later fresh Codex desktop task registered all eight public `0.1.0` skills and the
+  named workflows produced safe bounded results, while a separate fresh ephemeral
+  context lacked one named skill;
+- the owner-approved containment route remains a separately reviewed superseding
+  version, while withdrawal and unpublish capability remain open evidence;
 - support and private incident routes remain the public project-home surfaces.
 
-## Deferred, not scheduled
+## 10. Post-publication stabilization — proposed, awaiting separate execution authority
+
+Objective: gather durable, non-sensitive observation evidence and prepare a
+proportionate first adoption pilot while keeping `0.1.0` publication closed.
+
+Proposed sequence:
+
+1. run a seven-day manual observation across 5–10 real ChatGPT and Codex uses, covering
+   activation precision, false triggers, incomplete-input handling, refusals, safe
+   fallback, usefulness, and cross-client consistency;
+2. select one low-risk, non-sensitive, read-only pilot whose target project retains its
+   own Canon and decision owner;
+3. consider `0.1.1` only when identity-bound evidence supports a reproducible defect or
+   a coherent high-value improvement;
+4. run a lightweight monthly read-only check of listing visibility, policy routes,
+   vulnerability reporting, support issues, provider requirements, and observed
+   containment controls.
+
+Each step receives its own owner decision before execution. The observation uses manual
+records in the ignored evidence lane, and telemetry remains outside the proposed scope.
+
+## Deferred — awaiting separate decisions
 
 - MCP servers, hooks, connectors, telemetry, hosted services, and runtime enforcement;
 - migration or consolidation of the two repositories;

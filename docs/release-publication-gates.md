@@ -52,6 +52,15 @@ Registration, submission, review, publication, installation, and provider valida
 remain distinct. Recheck current provider documentation when this gate becomes active;
 do not rely on a historical research note.
 
+For the accepted `0.1.0` path, one bounded execution charter may cover product-decision
+reconciliation, exact candidate preparation, private installation, private Git review,
+late project-home disclosure, and one complete Platform draft. It must stop before
+`Submit for Review`. OpenAI approval does not authorize `Publish`; each action requires
+its own exact owner statement.
+
+The implementation repository remains private. Uploaded candidate bytes still require
+the same validation, rights, security, privacy, and provider review as public source.
+
 ## Release evidence record
 
 Record at minimum:
@@ -70,3 +79,22 @@ Record at minimum:
 Stop and report rather than publish when ownership, authority, source precedence,
 candidate identity, license, privacy, current provider requirements, validation, or
 rollback is unavailable or contradictory.
+
+## Public repository disclosure gate
+
+Before changing project-home visibility, inspect the current tree and complete Git
+history, author identities, every live branch and tag, pull request bodies and comments,
+issues and comments, releases, and binary ancillary metadata. A passing current-tree
+secret scan is insufficient. Stop on any private identifier, local path, unpublished
+evidence, unlicensed material, ambiguous provider object, or need for history rewrite.
+
+Returning a repository to private is containment only and cannot retract copies or
+caches. The private implementation repository must not be made public through this
+gate.
+
+## Post-publication containment gate
+
+Before final publication, confirm the Platform's current withdrawal, unpublish, or
+supersession capability. If none can be confirmed, require an explicit owner decision
+accepting supersession as the containment path. Do not advertise a rollback control
+that has not been observed.

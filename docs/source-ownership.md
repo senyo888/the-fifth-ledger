@@ -2,7 +2,7 @@
 
 ## Repository architecture
 
-The Fifth Ledger uses a split repository model:
+The 5th Ledger uses a split repository model:
 
 ```text
 project home
@@ -39,6 +39,8 @@ migration plan; this setup performs no migration.
 | Pilot and adopter evidence | `docs/pilots/README.md` plus the authorised private evidence lane | Public summaries never replace exact evidence. |
 | Contribution and review | `CONTRIBUTING.md` | Does not create a remote or provider workflow. |
 | Publication and release | `docs/release-publication-gates.md` plus current external evidence | Candidate, published artifact, provider validation, and human decision stay separate. |
+| Public product, support, and policy surfaces | `README.md`, `SUPPORT.md`, `SECURITY.md`, `PRIVACY.md`, `TERMS.md`, and accepted ADRs | These surfaces own publisher-facing claims; they do not own implementation behavior. |
+| Plugin Directory direction | `docs/publication/` and accepted ADRs | The implementation repository owns exact submission assets, tests, and candidate bytes. |
 | Plugin behavior and packaging | Separate implementation repository | Its current source and tests override project-home summaries. |
 | Project routing | `.fifth-ledger/project.toml` | Flat reachability only; not ownership or precedence. |
 
@@ -71,10 +73,16 @@ index-byte proof.
 ## Surface ownership
 
 - Project-home surfaces: README, governance docs, ADRs, pilot policy, contribution
-  policy, release gates, and private continuity routing.
+  policy, public support/security/privacy/terms, release gates, and private continuity
+  routing.
 - Implementation surfaces: plugin metadata, skill instructions, templates,
   validators, implementation documentation, and tests.
 - External surfaces: plugin listing, marketplace record, remote repository, provider
   validation, published artifact, installation, deployment, and release evidence.
 
 An external surface becomes current truth only through its own evidence and authority.
+
+The accepted public/private distribution split is recorded in
+[ADR-0004](decisions/ADR-0004-plugin-distribution-and-publication.md). Public project
+pages may summarize the plugin's supported promise, but they must not copy the private
+manifest, skills, test corpus, build tooling, candidate hashes, or provider evidence.

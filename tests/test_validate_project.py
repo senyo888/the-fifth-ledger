@@ -80,6 +80,25 @@ class ProjectHomeValidationTests(unittest.TestCase):
             with self.subTest(action=action):
                 self.assertIn(f"| {action} |", charter)
 
+    def test_publication_surfaces_preserve_lifecycle_and_privacy_truth(self) -> None:
+        privacy = (ROOT / "PRIVACY.md").read_text(encoding="utf-8")
+        publication = (
+            ROOT / "docs" / "publication" / "plugin-directory-0.1.0.md"
+        ).read_text(encoding="utf-8")
+        decision = (
+            ROOT
+            / "docs"
+            / "decisions"
+            / "ADR-0004-plugin-distribution-and-publication.md"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn("publisher does not receive", privacy)
+        self.assertIn("not a submitted or published plugin", publication)
+        self.assertLess(publication.index("Platform draft"), publication.index("OpenAI approval"))
+        self.assertIn("Status: accepted", decision)
+        self.assertIn("Submit for Review", decision)
+        self.assertIn("Publish", decision)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,6 +1,6 @@
 # Contributing
 
-The Fifth Ledger project home accepts small, source-owned changes to product direction,
+The 5th Ledger project home accepts small, source-owned changes to product direction,
 governance, decisions, research policy, pilot design, review expectations, and
 publication gates. Plugin implementation changes belong in the separate implementation
 repository.
@@ -69,12 +69,15 @@ canonical profile validator against `.fifth-ledger/project.toml`. For a newly au
 tracked-public profile, an expected placement failure must remain visible until staging
 is separately authorised; do not stage merely to make validation pass.
 
-## External actions
+## Public contribution and external actions
 
 Staging, commit, remote creation, push, pull request creation, publication,
 installation, marketplace registration, deployment, release, and external
 communication each require explicit authority. A private continuity remote exists; no
 public contribution channel is currently declared.
 
-No license or security contact is currently declared. Do not infer reuse rights or a
-private reporting address.
+Contributions intentionally submitted for inclusion are governed by the project's
+[Apache-2.0 licence](LICENSE). Use [SUPPORT.md](SUPPORT.md) for public-safe support and
+the private route in [SECURITY.md](SECURITY.md) for vulnerabilities. Never post
+credentials, personal data, private repository content, or confidential evidence in a
+public contribution.

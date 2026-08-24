@@ -20,17 +20,24 @@ REQUIRED_FILES = (
     "AGENTS.md",
     "CHANGELOG.md",
     "CONTRIBUTING.md",
+    "LICENSE",
+    "PRIVACY.md",
     "README.md",
+    "SECURITY.md",
+    "SUPPORT.md",
+    "TERMS.md",
     "docs/README.md",
     "docs/adoption-strategy.md",
     "docs/decisions/ADR-0001-project-home-boundary.md",
     "docs/decisions/ADR-0002-proportional-adoption-model.md",
     "docs/decisions/ADR-0003-decision-backed-authority-envelopes.md",
+    "docs/decisions/ADR-0004-plugin-distribution-and-publication.md",
     "docs/decisions/README.md",
     "docs/execution-charter-template.md",
     "docs/pilots/README.md",
     "docs/pilots/split-repository-portability-2026-08-24.md",
     "docs/product-direction.md",
+    "docs/publication/plugin-directory-0.1.0.md",
     "docs/release-publication-gates.md",
     "docs/roadmap.md",
     "docs/source-ownership.md",
@@ -251,6 +258,43 @@ def validate_ignore_policy(errors: list[str]) -> int:
     return checked
 
 
+def validate_publication_contract(errors: list[str]) -> int:
+    """Require the public policy and lifecycle surfaces for the 0.1.0 path."""
+    checks = {
+        "LICENSE": ("Apache License", "Version 2.0"),
+        "PRIVACY.md": (
+            "categories of personal data",
+            "publisher does not receive",
+            "Retention",
+            "User control",
+        ),
+        "SECURITY.md": ("Report a vulnerability", "private security advisory"),
+        "SUPPORT.md": ("best-effort", "no service-level agreement"),
+        "TERMS.md": ("does not grant permissions", "Apache License 2.0"),
+        "docs/decisions/ADR-0004-plugin-distribution-and-publication.md": (
+            "Status: accepted",
+            "skills-only",
+            "Submit for Review",
+            "Publish",
+        ),
+        "docs/publication/plugin-directory-0.1.0.md": (
+            "not a submitted or published plugin",
+            "Platform draft",
+            "OpenAI approval",
+        ),
+    }
+    checked = 0
+    for relative, required_fragments in checks.items():
+        text = (ROOT / relative).read_text(encoding="utf-8")
+        for fragment in required_fragments:
+            checked += 1
+            if fragment not in text:
+                errors.append(
+                    f"publication contract missing {fragment!r}: {relative}"
+                )
+    return checked
+
+
 def main() -> int:
     """Run all project-home checks and return a deterministic exit status."""
     errors: list[str] = []
@@ -265,6 +309,7 @@ def main() -> int:
     links = validate_markdown_links(candidates, errors)
     public_files = validate_public_candidates(candidates, errors)
     ignore_checks = validate_ignore_policy(errors)
+    publication_checks = validate_publication_contract(errors)
 
     if errors:
         for error in sorted(set(errors)):
@@ -277,7 +322,8 @@ def main() -> int:
         f"{routes} routed paths, "
         f"{links} local Markdown links, "
         f"{public_files} public candidates, and "
-        f"{ignore_checks} ignore-policy checks are coherent"
+        f"{ignore_checks} ignore-policy checks, and "
+        f"{publication_checks} publication-contract checks are coherent"
     )
     print("NOTE: profile schema authority and tracked placement require the canonical implementation validator")
     return 0

@@ -11,6 +11,7 @@ structure, or governance weight.
 | [ADR-0001](ADR-0001-project-home-boundary.md) | Accepted | Keep the project home separate from the plugin implementation repository. |
 | [ADR-0002](ADR-0002-proportional-adoption-model.md) | Accepted | Use project-owned, risk-proportional adoption with private central coordination only. |
 | [ADR-0003](ADR-0003-decision-backed-authority-envelopes.md) | Accepted | Use explicit, expiring envelopes so one owner decision can cover a bounded phase. |
+| [ADR-0004](ADR-0004-plugin-distribution-and-publication.md) | Accepted | Prepare `0.1.0` as a skills-only plugin with a public project home, private implementation, and separate Submit and Publish gates. |
 
 ## Record format
 

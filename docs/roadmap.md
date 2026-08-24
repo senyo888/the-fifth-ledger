@@ -99,44 +99,72 @@ Result:
   product copy and support are explicit;
 - `Submit for Review` and final `Publish` remain separate owner gates.
 
-## 6. Exact candidate and private installation — active
+## 6. Exact candidate and private installation — completed 2026-08-24
 
 Objective: produce one deterministic, identity-bound `0.1.0` bundle and prove its
 behavior through a temporary personal marketplace in fresh ChatGPT and Codex contexts.
 
-Exit evidence requires current validation, reviewer-runnable tests, security/privacy
-checks, deterministic archive identity, private-install identity, fresh-context
-activation and safe-fallback results, uninstall, and configuration restoration. A
-passing source validator alone is not publication readiness.
+Result:
 
-## 7. Platform draft
+- one deterministic implementation-owned `0.1.0` archive received a fixed SHA-256
+  identity;
+- package, syntax, link, privacy, secret, path-leak, and security checks passed;
+- reviewer-runnable positive and negative tests were reconciled to the exact candidate;
+- private fresh-context activation, incomplete-input, false-trigger, refusal,
+  safe-fallback, and output-quality tests passed;
+- temporary installation state was removed or restored before the Platform draft;
+- candidate validation remained distinct from later provider approval and publication.
+
+## 7. Platform draft — completed 2026-08-24
 
 Objective: after the project-home disclosure gate passes, confirm existing verified
 publisher and Apps Management access, make only the project home public, and create one
 complete validated Skills-only OpenAI Platform draft.
 
-Stop before `Submit for Review`. Identity verification, role changes, legal acceptance,
-and public implementation disclosure are not part of this stage.
+Result:
 
-## 8. OpenAI review — later owner gate
+- the selected publisher was verified as Senyo Seckley;
+- owner access satisfied the observed Apps Management requirement without a role
+  change;
+- exactly one Skills-only draft was completed with the approved candidate, listing,
+  prompts, tests, availability, release notes, policy URLs, and attestations;
+- automated Platform checks passed;
+- the phase stopped before `Submit for Review`;
+- no billing, role, legal, verification, or implementation-visibility change was made.
 
-Objective: submit one exact reconciled draft after Senyo authorizes `Submit for Review`.
+## 8. OpenAI review — completed 2026-08-24
 
-OpenAI findings may produce a new exact candidate only within the separately approved
-correction allowlist. Approval remains external evidence, not publication authority.
+Result:
 
-## 9. Directory publication — later owner gate
+- Senyo separately authorized submission of the exact reconciled draft;
+- `Confirm and submit` was selected once;
+- OpenAI recorded version `0.1.0` as approved;
+- approval remained external evidence and did not authorize publication.
+
+## 9. Directory publication — completed 2026-08-24; Codex observation open
 
 Objective: publish the exact OpenAI-approved candidate only after Senyo authorizes the
 final `Publish` action and containment controls are confirmed.
 
-Exit evidence includes directory identity, fresh ChatGPT and Codex smoke tests, support
-and incident routing, and confirmed withdrawal, unpublish, or accepted supersession
-containment.
+Result:
+
+- Senyo separately authorized publication of the exact OpenAI-approved `0.1.0`
+  candidate;
+- the Platform showed one approved entry, public policy and support URLs were live,
+  and no new terms, costs, identity, role, billing, verification, regional commitment,
+  or candidate change appeared;
+- `Publish` was selected exactly once and the Platform recorded `0.1.0` as published;
+- the public directory listing was verified and authenticated ChatGPT installation and
+  bounded smoke tests passed;
+- the Codex client retrieved the public package, but fresh-session activation and
+  public lookup were not confirmed at this observation boundary;
+- no withdrawal or unpublish control was confirmed, so the owner-approved containment
+  route is a separately reviewed superseding version;
+- support and private incident routes remain the public project-home surfaces.
 
 ## Deferred, not scheduled
 
 - MCP servers, hooks, connectors, telemetry, hosted services, and runtime enforcement;
 - migration or consolidation of the two repositories;
-- autonomous review submission or public launch;
-- autonomous lifecycle actions.
+- autonomous submission or publication of a later version;
+- autonomous withdrawal, supersession, or other lifecycle actions.

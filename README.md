@@ -25,8 +25,8 @@ repository identities, and historical decision titles retain `the-fifth-ledger` 
 
 ## Current maturity
 
-The project home has a private Git baseline and an accepted `0.1.0` distribution
-decision. At this point:
+The project home is public and The 5th Ledger `0.1.0` is published in OpenAI's
+universal Plugins Directory for ChatGPT and Codex. At this point:
 
 - `main` remains the canonical project-home branch;
 - Senyo (`senyo888`) is the identified project owner and has accepted the project
@@ -36,9 +36,17 @@ decision. At this point:
   publication direction;
 - two read-only pilots have examined bounded authority and split-repository
   portability, with exact evidence kept private;
-- the publication candidate, private installation, Platform draft, review submission,
-  approval, and directory publication remain separately evidenced lifecycle facts;
-- no Plugins Directory availability, deployment, or release is claimed here;
+- the exact publication candidate, private installation, Platform draft, review
+  submission, approval, and publication remain separately evidenced lifecycle facts;
+- the public listing is available at
+  [The 5th Ledger in the Plugins Directory](https://chatgpt.com/plugins/plugins_6a8c4d64d6588191acd217005a66224d);
+- authenticated ChatGPT installation and bounded fresh-chat smoke tests passed after
+  publication;
+- the Codex client retrieved the public package, but fresh-session activation was not
+  confirmed at the publication observation boundary, so Codex behavior remains an
+  open post-publication observation rather than an asserted success;
+- the implementation repository remains private and continues to own implementation
+  and candidate truth;
 - the public promise is evidence-bounded and does not claim market demand, compliance,
   enforcement, or guaranteed outcomes.
 
@@ -91,15 +99,15 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v
 git diff --check
 ```
 
-## Next gates
+## Post-publication follow-up
 
-1. Prepare and validate one exact implementation-owned `0.1.0` candidate.
-2. Install that exact bundle privately, test it in fresh ChatGPT and Codex contexts,
-   then uninstall it and restore the preflight configuration.
-3. Complete one validated OpenAI Platform draft and stop before `Submit for Review`.
-4. Require Senyo's later exact authority for `Submit for Review`.
-5. After confirmed OpenAI approval and containment verification, require Senyo's
-   separate exact authority for `Publish`.
+1. Recheck public-plugin activation in a fresh supported Codex session after directory
+   propagation and record only observed behavior.
+2. Route ordinary support through [SUPPORT.md](SUPPORT.md) and vulnerabilities through
+   the private path in [SECURITY.md](SECURITY.md).
+3. Treat any correction, superseding version, withdrawal, or other lifecycle action as
+   a new identity-bound review and owner decision; `0.1.0` publication grants no
+   standing authority for later versions.
 
 The project is licensed under [Apache-2.0](LICENSE). Support is English and best effort
 with no service-level agreement; use [public support](SUPPORT.md) for non-sensitive

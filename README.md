@@ -1,6 +1,6 @@
-# The Fifth Ledger project home
+# The 5th Ledger project home
 
-The Fifth Ledger helps people and coding agents keep consequential project work
+The 5th Ledger helps people and coding agents keep consequential project work
 truthful, reviewable, and within authority. This repository is its durable project
 home: it holds product direction, source ownership, decisions, research boundaries,
 pilot policy, review expectations, and release/publication gates.
@@ -9,6 +9,10 @@ The plugin implementation lives in a separate repository. That repository remain
 only source for plugin code, skills, package metadata, implementation architecture,
 templates, and implementation tests. This project home must route to that source, not
 copy it.
+
+`The 5th Ledger` is the customer-facing display name. The stable technical slug,
+repository identities, and historical decision titles retain `the-fifth-ledger` or
+`The Fifth Ledger`; no package or repository migration is implied.
 
 ## What it helps answer
 
@@ -21,19 +25,22 @@ copy it.
 
 ## Current maturity
 
-The project home has an initial private Git baseline. At this point:
+The project home has a private Git baseline and an accepted `0.1.0` distribution
+decision. At this point:
 
-- `main` is the canonical private project-home branch;
-- the private GitHub remote provides continuity but is not public publication;
+- `main` remains the canonical project-home branch;
 - Senyo (`senyo888`) is the identified project owner and has accepted the project
   profile;
 - the accepted profile's tracked placement is validated against the initial baseline;
-- ADR-0003 records the accepted execution-envelope model; two read-only pilots have
-  examined bounded authority and split-repository portability, with exact evidence
-  kept private and no target or plugin change accepted;
-- no publication, installation, marketplace registration, deployment, or release is
-  claimed here;
-- product positioning is a working direction, not a verified market claim.
+- ADR-0003 owns the execution-envelope model and ADR-0004 owns the skills-only
+  publication direction;
+- two read-only pilots have examined bounded authority and split-repository
+  portability, with exact evidence kept private;
+- the publication candidate, private installation, Platform draft, review submission,
+  approval, and directory publication remain separately evidenced lifecycle facts;
+- no Plugins Directory availability, deployment, or release is claimed here;
+- the public promise is evidence-bounded and does not claim market demand, compliance,
+  enforcement, or guaranteed outcomes.
 
 Current Git state always overrides this dated orientation when they diverge.
 
@@ -61,6 +68,10 @@ boundary.
 - [Pilot policy](docs/pilots/README.md) — evidence ownership and privacy.
 - [Release and publication gates](docs/release-publication-gates.md) — proof required
   before external claims or actions.
+- [Plugin Directory publication record](docs/publication/plugin-directory-0.1.0.md) —
+  accepted public promise and exact lifecycle boundary for `0.1.0`.
+- [Support](SUPPORT.md), [security](SECURITY.md), [privacy](PRIVACY.md), and
+  [terms](TERMS.md) — public owner-operated policy and reporting surfaces.
 
 ## Working model
 
@@ -82,17 +93,14 @@ git diff --check
 
 ## Next gates
 
-1. At the next product checkpoint, choose independently among documentation-only
-   closeout, a target-owned continuity correction proposal, a bounded private plugin
-   proposal, another pilot, or optional distribution research.
-2. Keep exact pilot packets private; only generalized, evidence-bounded learning may
-   enter tracked documentation.
-3. Reconcile any accepted product or workflow change into the implementation
-   repository only through separately authorised implementation work.
-4. If another pilot is chosen, define its evidence owner, privacy lane, success
-   criteria, retention, and stop rule before collecting evidence.
-5. Consider publication only after the gates in
-   [release and publication](docs/release-publication-gates.md) are evidenced.
+1. Prepare and validate one exact implementation-owned `0.1.0` candidate.
+2. Install that exact bundle privately, test it in fresh ChatGPT and Codex contexts,
+   then uninstall it and restore the preflight configuration.
+3. Complete one validated OpenAI Platform draft and stop before `Submit for Review`.
+4. Require Senyo's later exact authority for `Submit for Review`.
+5. After confirmed OpenAI approval and containment verification, require Senyo's
+   separate exact authority for `Publish`.
 
-No license or security contact is declared in this repository. Do not infer reuse
-rights or a reporting channel until those decisions are made explicitly.
+The project is licensed under [Apache-2.0](LICENSE). Support is English and best effort
+with no service-level agreement; use [public support](SUPPORT.md) for non-sensitive
+questions and the [private security route](SECURITY.md) for vulnerabilities.

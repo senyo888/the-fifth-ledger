@@ -5,6 +5,13 @@ changes belong in the separate implementation repository.
 
 ## Unreleased
 
+- Accepted the `0.1.0` skills-only distribution and publication decision while keeping
+  review submission and final publication behind separate owner gates.
+- Added Apache-2.0 licensing and public support, security, privacy, terms, and Plugin
+  Directory policy surfaces.
+- Reconciled product direction, source ownership, roadmap, publication gates, and
+  public claims for a private implementation candidate and eventual public project
+  home.
 - Recorded public-safe split-repository portability learning while keeping exact target
   identity and lifecycle evidence in the ignored private lane.
 - Accepted ADR-0003 and added an execution-charter template so one explicit,

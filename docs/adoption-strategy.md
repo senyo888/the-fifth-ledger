@@ -7,7 +7,7 @@ coordination lane:
 
 - each target project owns its authority, canon, evidence rules, surfaces, lifecycle,
   and accepted profile;
-- The Fifth Ledger project home owns the reusable product direction, adoption method,
+- The 5th Ledger project home owns the reusable product direction, adoption method,
   private assessments, and cross-project learning;
 - the plugin implementation repository owns skills, schemas, validators, templates,
   and implementation tests;

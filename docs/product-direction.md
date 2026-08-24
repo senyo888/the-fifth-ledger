@@ -1,8 +1,8 @@
 # Product direction and positioning
 
-## Working objective
+## Accepted objective
 
-The Fifth Ledger should help maintainers and coding agents keep consequential project
+The 5th Ledger should help maintainers and coding agents keep consequential project
 work coherent across five views of truth:
 
 1. authority;
@@ -15,16 +15,20 @@ Its practical value is disciplined routing and decision quality: identify who ma
 locate the source that owns the topic, bind claims to current evidence, keep outward
 surfaces truthful, and stop lifecycle states from collapsing into one another.
 
-## Working positioning
+## Accepted positioning
 
-The Fifth Ledger is a governance workflow layer for agentic project work. It is not an
+The 5th Ledger is a governance workflow layer for agentic project work. It is not an
 access-control product, a security scanner, a compliance certification, a runtime
 orchestrator, or an authority system.
 
-The current product hypothesis is that maintainers need a portable, local-first way to
-make agent work reviewable without importing a large process framework. That hypothesis
-requires bounded pilots and current market research before any stronger demand,
-differentiation, or adoption claim.
+The accepted `0.1.0` distribution direction is a local-first, skills-only plugin for
+ChatGPT and Codex. It has no MCP server, hooks, apps, connectors, authentication,
+telemetry, UI, hosted/background runtime, or publisher-operated network service.
+
+The product hypothesis remains that maintainers need a portable way to make agent work
+reviewable without importing a large process framework. Bounded pilots and current
+market research remain necessary before any stronger demand, differentiation, or
+adoption claim.
 
 ## Intended users
 
@@ -44,6 +48,8 @@ differentiation, or adoption claim.
   distinct.
 - Independent review is claimed only when the context is genuinely separate.
 - The smallest useful artifact is preferred over ceremonial repetition.
+- Public copy states what the workflow helps users do without implying enforcement,
+  certification, guaranteed correctness, or autonomous lifecycle authority.
 
 ## Non-goals
 
@@ -61,7 +67,11 @@ differentiation, or adoption claim.
   friction?
 - Which controls belong in procedural skills and which require external enforcement?
 - What public evidence can demonstrate value without exposing adopter truth?
-- What public visibility and contribution model, if any, should each separate
-  repository use?
+- Which public evidence can demonstrate durable value after `0.1.0` publication?
+- Does keeping the implementation repository private remain maintainable after the
+  initial OpenAI review?
 
 These are research and decision questions, not implied roadmap commitments.
+
+The controlling distribution decision is
+[ADR-0004](decisions/ADR-0004-plugin-distribution-and-publication.md).

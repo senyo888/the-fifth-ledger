@@ -84,35 +84,59 @@ Result:
 The generalized result is recorded in the
 [public-safe pilot summary](pilots/split-repository-portability-2026-08-24.md).
 
-## 5. Product decision and implementation reconciliation — next
+## 5. Product and distribution decision — completed 2026-08-24
 
-Objective: convert evidenced pilot findings into explicit decisions and, when
-authorised, small implementation-repository changes.
+Objective: convert the evidenced product direction into one bounded distribution
+decision without collapsing candidate, draft, review, approval, and publication.
 
-Gates:
+Result:
 
-- choose early close, documentation-only follow-up, another pilot, a bounded private
-  implementation proposal, or optional distribution research independently;
-- accepted ADR or bounded implementation request;
-- exact implementation identity;
-- implementation-repository validation;
-- project-home direction and public claims reconciled without copying implementation
-  canon.
+- ADR-0004 accepts a `0.1.0` skills-only candidate;
+- the public project home owns product, support, security, privacy, terms, and durable
+  publication decisions;
+- the implementation repository remains private and owns candidate bytes;
+- Apache-2.0, worldwide Platform-permitted availability, and best-effort English-first
+  product copy and support are explicit;
+- `Submit for Review` and final `Publish` remain separate owner gates.
 
-## 6. Distribution decision
+## 6. Exact candidate and private installation — active
 
-Objective: decide whether either private repository should gain public visibility or a
-contribution channel, and whether to publish, install, or pursue marketplace
-distribution.
+Objective: produce one deterministic, identity-bound `0.1.0` bundle and prove its
+behavior through a temporary personal marketplace in fresh ChatGPT and Codex contexts.
 
-This stage requires fresh platform research, a license decision, security/contact
-decision, current package validation, sanitized pilot evidence, rollback planning, and
-explicit authority for each external action. A private prototype or passing validator
-is not publication readiness.
+Exit evidence requires current validation, reviewer-runnable tests, security/privacy
+checks, deterministic archive identity, private-install identity, fresh-context
+activation and safe-fallback results, uninstall, and configuration restoration. A
+passing source validator alone is not publication readiness.
+
+## 7. Platform draft
+
+Objective: after the project-home disclosure gate passes, confirm existing verified
+publisher and Apps Management access, make only the project home public, and create one
+complete validated Skills-only OpenAI Platform draft.
+
+Stop before `Submit for Review`. Identity verification, role changes, legal acceptance,
+and public implementation disclosure are not part of this stage.
+
+## 8. OpenAI review — later owner gate
+
+Objective: submit one exact reconciled draft after Senyo authorizes `Submit for Review`.
+
+OpenAI findings may produce a new exact candidate only within the separately approved
+correction allowlist. Approval remains external evidence, not publication authority.
+
+## 9. Directory publication — later owner gate
+
+Objective: publish the exact OpenAI-approved candidate only after Senyo authorizes the
+final `Publish` action and containment controls are confirmed.
+
+Exit evidence includes directory identity, fresh ChatGPT and Codex smoke tests, support
+and incident routing, and confirmed withdrawal, unpublish, or accepted supersession
+containment.
 
 ## Deferred, not scheduled
 
 - MCP servers, hooks, connectors, telemetry, hosted services, and runtime enforcement;
 - migration or consolidation of the two repositories;
-- marketplace submission or public launch;
+- autonomous review submission or public launch;
 - autonomous lifecycle actions.
